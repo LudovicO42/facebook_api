@@ -4,7 +4,7 @@ from pydantic import BaseModel, EmailStr
 from datetime import datetime
 from typing import Optional
 
-client = MongoClient("mongodb+srv://ludovicolivier_db_user_2:cKR2uV9fulZe4xJ6@cluster0.civfxja.mongodb.net/DB_API_v1")
+client = MongoClient("xxx")
 db = client["facebook_api"]
 
 app = FastAPI(title="Facebook Event API")
